@@ -3,10 +3,13 @@ AUTHOR: invisibility/danny
 Level: Medium       |     category: Cryptography
 
 Description:
-We made a lot of substitutions to encrypt this. Can you decrypt it? Connect with (nc jupiter.challenges.picoctf.org 13758.)
-----------------------------------------------------------------------------------------------------------------------------
 
+We made a lot of substitutions to encrypt this. Can you decrypt it? Connect with (nc jupiter.challenges.picoctf.org 13758.)
+
+----------------------------------------------------------------------------------------------------------------------------
 Once we use nc to get the challenge details, it will print out:
+
+
 '
 bnlicymj waca fj xnoc huyi - hcaeoalbx_fj_b_nkac_uyqpty_tlkmhcmyxo
 -------------------------------------------------------------------------------
@@ -18,5 +21,6 @@ This looks pretty much alike SUBSTITUTION CIPHER, so in that case, let the decod
 https://www.guballa.de/substitution-solver
 
 Paste everything in, and we get "congrats here is your flag - frequency_is_c_over_lambda_dnvtfrtayu" at the head of the decoded text, however when enter the code, there is NO NEED to add picoCTF, so the flag will only be:
+
 
 frequency_is_c_over_lambda_dnvtfrtayu
