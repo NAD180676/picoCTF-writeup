@@ -18,11 +18,13 @@ or
 	https://gchq.github.io/CyberChef/
 
 
-As the first link, we simply paste in and it will do all the work, however in CyberChef, when put the ROT13 recipe in, the decoded text seems incorrect, so I increased the amount and got the correct decoded text at the amount of 30
+As the first link, we simply paste in and it will do all the work, however in CyberChef, when put the ROT13 recipe in, the decoded text seems incorrect, so I increased the amount and got the correct decoded text at the amount of 30.
 So the flag will be:
 
 
+
 picoCTF{crossingtherubiconvfhsjkou}
+
 
 
 
