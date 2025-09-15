@@ -24,11 +24,10 @@ def basicMod():
 
     messages = [128,322,353,235,336,73,198,332,202,285,57,87,262,221,218,405,335,101,256,227,112,140]		//this is from the message file
 
-    for i in range(len(messages)):					//loop through the whole messages list
-            print(char[messages[i]%37], end="")				//each char of messages will be moded by 37, then that result will be put inside char, so that
-									//it will point to the direct position
-									//example: 128%37= 17, so char[17]=R and so on. end="", that will remove space between chars.
-
+    for i in range(len(messages)):						//loop through the whole messages list
+            print(char[messages[i]%37], end="")			//each char of messages will be moded by 37, then that result will be put 																//inside char, so that
+														//it will point to the direct position
+														//example: 128%37= 17, so char[17]=R and so on. end="", that will remove space 															//between chars.
 basicMod()
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -36,6 +35,7 @@ After decoding, we have: R0UND_N_R0UND_79C18FB3. So the flag will be
 
 
 picoCTF{R0UND_N_R0UND_79C18FB3}
+
 
 
 
