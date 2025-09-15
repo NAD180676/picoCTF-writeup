@@ -16,7 +16,7 @@ This challenge is similar to the previous one, basic-mod1 . The different here i
 This can also be solved by hand but it will take a lot of time since we have to calculate every single inverse of every modular, so we use python instead.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-def basicMod2():
+    def basicMod2():
 
     char=" ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_"
     messages=[104,372,110,436,262,173,354,393,351,297,241,86,262,359,256,441,124,154,165,165,219,288,42]
@@ -24,14 +24,14 @@ def basicMod2():
     for i in range(len(messages)):
         print(char[inverse(messages[i],41)], end="")
 
-def inverse(nums, modular):
-    for x in range(1, modular):
-        if(((nums % modular) * (x % modular))% modular == 1):
-            return x
-    return -1
-    
-    
-basicMod2()
+    def inverse(nums, modular):
+        for x in range(1, modular):
+            if(((nums % modular) * (x % modular))% modular == 1):
+                return x
+        return -1
+        
+        
+    basicMod2()
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -41,6 +41,7 @@ And finally, we got the flag:
 
 
 picoCTT{1NV3R53LY_H4RD_DADAACAA}
+
 
 
 
