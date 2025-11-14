@@ -5,11 +5,11 @@ Level: Medium		| 	category: Cryptography
 Description:
 
 We found this weird message being passed around on the servers, we think we have a working decryption scheme.
-Download the message here (https://artifacts.picoctf.net/c/127/message.txt).
+Download the message [here](https://artifacts.picoctf.net/c/127/message.txt).
 Take each number mod 37 and map it to the following character set: 0-25 is the alphabet (uppercase), 26-35 are the decimal digits, and 36 is an underscore.
 Wrap your decrypted message in the picoCTF flag format (i.e. picoCTF{decrypted_message})
 
------------------------------------------***------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 This challenge can be solved by hand following the instruction from the description, or we can just simply code a simple decrypt file. Python will come in handy.
 
@@ -18,7 +18,7 @@ As we have from the description, the alphabet will be from 0 to 25, 26 to 35 wil
 
 Taking all that information, we can write a python look likes this:
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 	def basicMod():
    
@@ -30,14 +30,10 @@ Taking all that information, we can write a python look likes this:
 														//it will point to the direct position
 														//example: 128%37= 17, so char[17]=R and so on. end="", that will remove space 															//between chars.
 	basicMod()
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 After decoding, we have: R0UND_N_R0UND_79C18FB3. So the flag will be
 
 
-picoCTF{R0UND_N_R0UND_79C18FB3}
-
-
-
-
+flag: picoCTF{R0UND_N_R0UND_79C18FB3}
 
