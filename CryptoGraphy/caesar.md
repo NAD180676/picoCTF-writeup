@@ -1,6 +1,6 @@
 Author: Sanjay C/Daniel Tunitis
 
-Level: Medium		| 	category: Cryptography
+Level: Medium		|		category: Cryptography
 
 Description:
 
@@ -24,3 +24,4 @@ So the flag will be:
 
 
 picoCTF{crossingtherubiconvfhsjkou}
+
